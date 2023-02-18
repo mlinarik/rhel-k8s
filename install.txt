@@ -1,5 +1,5 @@
----
-CRI-O
+#---
+#CRI-O
 
 sudo yum -y update
 
@@ -15,8 +15,8 @@ rpm -qi cri-o
 
 sudo systemctl enable --now crio
 
----
-K8s
+#---
+#K8s
 
 sudo swapoff -a
 
